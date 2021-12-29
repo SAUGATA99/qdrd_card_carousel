@@ -1,0 +1,17 @@
+{
+  "development": {
+    "proxy": {
+      "origin": "https://ven04489.service-now.com/",
+      "proxies": ["/api"]
+    }
+  },
+  "styles": {
+    "themes": [
+      {
+        "module": "@servicenow/sass-theme",
+        "main": ["theme.scss"],
+        "copyFiles": ["type/*", "*.scss"]
+      }
+    ]
+  }
+}

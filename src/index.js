@@ -1,0 +1,1 @@
+import './qdsdp-qdrd-carousel';

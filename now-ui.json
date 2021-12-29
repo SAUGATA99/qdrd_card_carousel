@@ -1,0 +1,25 @@
+{
+  "components": {
+    "qdsdp-qdrd-carousel": {
+      "innerComponents": [],
+      "uiBuilder": {
+        "associatedTypes": ["global.core", "global.landing-page"],
+        "label": "Carousel - qdsdp",
+        "icon": "document-outline",
+        "description": "Carousel of cards with Background Image, Title and Button",
+        "category": "primitives"
+      },
+      "properties": [
+        {
+          "name": "cardItems",
+          "label": "Card Items",
+          "description": "Array of Objects, each object contains properties (title, imgURL, cardURL, buttonLabel & buttonURL)",
+          "readOnly": false,
+          "required": true,
+          "fieldType": "object"
+        }
+      ]
+    }
+  },
+  "scopeName": "x_qdsdp_carousel"
+}

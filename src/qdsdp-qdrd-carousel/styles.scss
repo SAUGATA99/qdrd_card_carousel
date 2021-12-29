@@ -1,0 +1,49 @@
+@import "@servicenow/sass-kit/host";
+
+.card {
+  height: 100%; //200px;
+  width: auto; //300px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-rows: 44% 28% 28%;
+  color: white;
+  background-size: cover;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button_container {
+  display: flex;
+  align-items: center;
+  button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  button:hover {
+    background-color: darkgreen;
+  }
+}
+
+.dot-container {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(#fff, 0.6);
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.dot_active,
+.dot:hover {
+  background-color: white;
+}
